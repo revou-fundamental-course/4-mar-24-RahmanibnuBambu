@@ -1,0 +1,42 @@
+header>h1 {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+}
+.RIB-item {
+    border: 0px;
+    width: 100%;
+    padding: 10px; ;
+}
+
+.RIB-item>h2 {
+    text-align: left;
+    padding: 10px;
+}
+.RIB-result {
+    text-align: center;
+    background-color: rgb(206, 212, 218);
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+#RIB-from {
+    background-color: aqua;
+    padding-top: 8px;
+    padding: 24px;
+}
+
+#RIB-from>div{
+    padding: 8px;
+   
+}
+button {
+    height: 35px;
+    padding-right: 24px;
+    padding-left: 24pax;
+    border-radius: 10px;
+}
+#kalkulator-button {
+    background-color: rgb(41, 123, 247);
+}

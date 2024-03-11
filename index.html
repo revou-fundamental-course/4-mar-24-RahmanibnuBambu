@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>kalkulator BMi</title>
+<title>kalkulator BMI RIB</title>
+<link rel="stylesheet" href="style.css">
 </head>
   <body>
     <header>
-        <h1>Hello Gaes!</h1>
+        <h1>kalkulator BMI - Rahman</h1>
     </header>
-    <h2>Hello Gaes!</h2>
+    <main>
+    <div class="main-container">
+
+        <!-- Form Display -->
+        <div class="RIB-item">
+            <h2>hasil</h2>
+            <section class="RIB-result">
+                <h4>berat badan lebih</h4>
+                <h1>0</h1>
+                <h4>Anda memiliki berat yang berlebih</h4>
+                <button type="button" id="kalkulator-button">download hasil BMI</button>
+            </section>
+            <p>Hasil BMI diantara 23 dab 25</p>
+            <p> Anda berada dalam kategori overweight atau berat badan berlebihan. 
+                Cara terbaik menurunkan berat badan adalah dengan mengatur kalor makanan yang dikonsumsi dan berolahraga 
+                jika BMI anda berada dalam kategori ini maka anda dianjurkan untuk menurunkan berat badan hingga batas normal</p>
+                <button type="button"id="kalkulator-button">Konsultasi Ahli Gizi Via Aplikasi</button>
+                <button type="button"id="kalkulator-button">Registrasi Onlone Ahli Gizi</button>
+                <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran anda terkait dengan berat badan anda</p>
+        </div>
+
+        <div class="RIB-item">
+            <h2>kalkulator BMI</h2>
+            <p>Berat badan ideal adalah impian semua orang. tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?Yuk,hitung sekarang dikalkulator BMI</p>
+            
+            <section id="RIB-form">
+                <div>
+                <label>jenis kelamin</label><br/>
+                <input type="radio" name="sex" id="sex-men">
+                <label for="sex-men">laki-laki</label>
+                <input type="radio" name="sex" id="sex-woman">
+                <label for="sex-woman">perempuan</label>
+                </div>
+                <div>
+                    <label>berat badan (kg)</label><br/>
+                    <input type="number">
+            
+                </div>
+                <div>
+                    <label>usia (tahun)</label><br/>
+                    <input type="number"></div>
+                <div>
+                    <label>tinggi badan (cm)</label><br/>
+                    <input type="number">
+                </div>
+                    <button type="button" id="kalkulator-button">Hitung BMI</button><button type="button">reset</button>
+            </section>
+            <h4>Keunggulan fitur</h4> 
+            <ol type="1">
+                <li>menghitung berat badan</li>
+                <li>menemukan kategori berat badan ideal atau tidak</li>
+                <li>mempersiapkan program penurunan berat badan</li>
+            </ol>
+
+        </div>
+    </div>
+</main>
 </body>
 </html>
